@@ -58,10 +58,7 @@ What else changed:
 
 ### 🚀 Quick Start for PR-Agent
 
-#### 1. Try it Instantly (No Setup)
-Test PR-Agent on any public GitHub repository by commenting `@CodiumAI-Agent /improve`
-
-#### 2. GitHub Action (Recommended)
+#### 1. GitHub Action (Recommended)
 Add automated PR reviews to your repository with a simple workflow file:
 ```yaml
 # .github/workflows/pr-agent.yml
@@ -81,7 +78,7 @@ jobs:
 ```
 [Full GitHub Action setup guide](https://docs.pr-agent.ai/installation/github/#run-as-a-github-action)
 
-#### 3. CLI Usage (Local Development)
+#### 2. CLI Usage (Local Development)
 Run PR-Agent locally on your repository:
 ```bash
 pip install pr-agent
@@ -90,7 +87,7 @@ pr-agent --pr_url https://github.com/owner/repo/pull/123 review
 ```
 [Complete CLI setup guide](https://docs.pr-agent.ai/usage-guide/automations_and_usage/#local-repo-cli)
 
-#### 4. Other Platforms
+#### 3. Other Platforms
 - [GitLab webhook setup](https://docs.pr-agent.ai/installation/gitlab/)
 - [BitBucket app installation](https://docs.pr-agent.ai/installation/bitbucket/)
 - [Azure DevOps setup](https://docs.pr-agent.ai/installation/azure/)
